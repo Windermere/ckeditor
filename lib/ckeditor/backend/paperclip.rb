@@ -12,7 +12,7 @@ module Ckeditor
             before_validation :extract_content_type
             before_create :extract_dimensions, :parameterize_filename
 
-            delegate :url, :path, :styles, :size, :content_type, to: :data
+            delegate :url, :path, :styles, :content_type, to: :data
           end
         end
       end

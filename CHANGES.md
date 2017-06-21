@@ -1,5 +1,10 @@
 # Ckeditor changelog
 
+## Unrealized
+
+  * Remove parameterize_filenames from paperclip backend (fix issue #738)
+  * Don't delegate size method to data, read it from cached attribute data_file_size
+
 ## Ckeditor 4.2.3
 
   * Update CKEditor to version 4.6.2 full (12 Jan 2017)
